@@ -1,11 +1,15 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    cgi (0.4.1)
+    erb (4.0.4)
+      cgi (>= 0.3.3)
 
 PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  erb
 
 RUBY VERSION
    ruby 2.7.4p191
