@@ -1,15 +1,21 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    addressable (2.8.6)
+      public_suffix (>= 2.0.2, < 6.0)
     cgi (0.4.1)
     erb (4.0.4)
       cgi (>= 0.3.3)
+    launchy (2.4.2)
+      addressable (~> 2.3)
+    public_suffix (5.0.5)
 
 PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
   erb
+  launchy
 
 RUBY VERSION
    ruby 2.7.4p191
