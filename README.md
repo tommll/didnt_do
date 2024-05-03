@@ -15,3 +15,6 @@ repo_path = '$path_to_your_git_repo'
 
 DidntDo.new(repo_path).generate_report
 ```
+
+## TODO
+- [ ] Get TODO tasks of latest commits only
