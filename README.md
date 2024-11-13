@@ -1,7 +1,6 @@
 # List of tasks you didn't do
-This is a re-implementation of https://github.com/amfeng/todidnt
-
-* Technical Design: https://sugar-april-5dc.notion.site/DidntDo-67e88e29133f4e4da7d4dbd09f5c1ca0?pvs=4
+This gem lists out a list of tasks you forgot to do
+* A task: a git commit with "TODO" in message
 
 ## Install local gem
 ```ruby
@@ -20,3 +19,6 @@ DidntDo.new(repo_path).generate_report
 
 ## TODO
 - [ ] Get TODO tasks of latest commits only
+
+## Inspiration
+https://github.com/amfeng/todidnt
